@@ -7,3 +7,9 @@ a built-in python function that displays massages on the output screen to commun
 -  \\\ -> Backslash
 -  \\n -> New Line
 - \\t -> tab
+
+# Summary
+## Print()
+- Built-in Python Function
+- Display massages in output for users
+- Use Cases: Communicate, Show Results, Debugg, Test
