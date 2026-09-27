@@ -3,3 +3,7 @@ a built-in python function that displays massages on the output screen to commun
 
 # Escape Sequances
 -  \\" -> Double Quote
+-  \' -> Single Quote
+-  \\\ -> Backslash
+-  \\n -> New Line
+- \\t -> tab
