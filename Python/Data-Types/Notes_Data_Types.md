@@ -1,1 +1,2 @@
-
+- Python automatically detect Data Types.
+- **Dynamic** : Data Types can change any time 
