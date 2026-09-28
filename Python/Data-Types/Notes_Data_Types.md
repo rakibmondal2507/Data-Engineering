@@ -29,6 +29,9 @@ g = False
 - used to handle logic and decision making.
 - True and False are case-sensitive; they must start with a capital latter.
 
+
+
+
   ```python
   h = None
   ```
