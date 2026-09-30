@@ -94,6 +94,8 @@ print(lname)
   age = 23
   is_student = True
   print(f"My name is {name}, I am {age} years old and my student status is {is_student}")
+  print(f"2 + 3 = {2+3}") #expression also work
+  print(f"{{This is me}}")
 ```
 
 
