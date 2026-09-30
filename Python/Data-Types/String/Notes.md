@@ -66,3 +66,34 @@ price = "$4,283.99"
 print(price.replace("$" , "").replace("," , ""))
 ```
 - **Chained methods** are executed in order from **left to right.** Each replace() runs on the results of the one before it.
+
+**Join String** -> **+** plus operator
+'string'+'string' -> **joins(concatinates) two string into one.**
+```python
+# Join Strings
+fname = "Rakib"
+lname = "Mondal"
+lname = fname +" "+lname
+print(lname)
+```
+- **Use Case** - **Build file path** - build dynamic paths using folder and file variable
+  ```python
+  folder = "C:Users/Rakib/"
+  file = "report.csv"
+  full_path = folder + file
+  print(full_path)
+  ```
+
+**f-String**
+- modern , super easy way to format and build strings
+- "f" stands for "formatted"
+- lets you easily put variables and expressions directly inside string value
+```python
+  #f-string
+  name = "Rakib"
+  age = 23
+  is_student = True
+  print(f"My name is {name}, I am {age} years old and my student status is {is_student}")
+```
+
+
