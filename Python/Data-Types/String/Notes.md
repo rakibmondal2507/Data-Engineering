@@ -39,3 +39,20 @@
  print(text.count("Python"))
  print(text.count("python"))
 ```
+## Data Transformation
+
+**replace()**
+- **Use Case** - **Clean Numeric format**
+- swaps part of text with something new
+```python
+# replace()
+
+price = "1342,432"
+print(price.replace("," , "."))
+```
+- **Use Case** - **Change phone number format** - replace special character with something else.
+```python
+phone = "213-3248-423"
+print(phone.replace("-" , "/"))
+```
+- **replace()** is not just for changing values , you can also **remove unwanted parts** by replacing them with an **empty string("")**
