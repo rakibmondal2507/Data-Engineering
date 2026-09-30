@@ -14,3 +14,8 @@
   password = "34827fdk3"
   print(len(password)"
   ```
+
+**count**(Substring)
+- **Use Case** - Word Frequency check
+  Counts how many times a specific word appear
+  - returns how often a word appear in a string
