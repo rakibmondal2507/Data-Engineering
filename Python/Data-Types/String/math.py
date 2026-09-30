@@ -2,7 +2,8 @@
 
 #len
 
-name = "Rakib"
+password = "34827fdk3"
+print(len(password))
 
 
 #count
