@@ -42,8 +42,8 @@
 ## Data Transformation
 
 **replace()**
-- **Use Case** - **Clean Numeric format**
 - swaps part of text with something new
+- **Use Case** - **Clean Numeric format**
 ```python
 # replace()
 
@@ -56,3 +56,13 @@ phone = "213-3248-423"
 print(phone.replace("-" , "/"))
 ```
 - **replace()** is not just for changing values , you can also **remove unwanted parts** by replacing them with an **empty string("")**
+```python
+phone = "213-3248-423"
+print(phone.replace("-" , ""))
+```
+- **Use Case** - **Clean Numeric format**
+```python
+price = "$4,283.99"
+print(price.replace("$" , "").replace("," , ""))
+```
+- **Chained methods** are executed in order from **left to right.** Each replace() runs on the results of the one before it.
