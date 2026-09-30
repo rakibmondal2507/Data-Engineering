@@ -18,7 +18,7 @@
   Prevent values that are too short or too long.
   ```python
   password = "34827fdk3"
-  print(len(password)"
+  print(len(password))
   ```
 
 **count**(substring)
@@ -28,3 +28,14 @@
   - python is **case-sensitive**,
     means uppercase and lowercase letters are treated as different.
   **Use Case** - **Detect Quality issues** -  count how many unwanted character in my data.
+```python
+ #count
+ text = """
+ Python is easy to learn.
+ Python is powerful.
+ Many people love python.
+ """
+ 
+ print(text.count("Python"))
+ print(text.count("python"))
+```
