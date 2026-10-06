@@ -111,3 +111,7 @@ csv_file = "1343,Rakib,India,24-12-2010"
 print(csv_file.split(","))
 ```
 
+**Indexes & Slicing**
+- If you leave start index empty Python start from index 0
+- use negative indexs if you want to extract part from the right side (end) of the string)
+
