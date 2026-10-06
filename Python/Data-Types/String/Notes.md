@@ -99,3 +99,15 @@ print(lname)
 ```
 
 
+**Split**
+- Breaks a string into smaller part.
+```python
+stamp = "2026-05-13 21:40" 
+print(stamp.split(" "))
+```
+- Break **comma-separated** values into individual items
+```python
+csv_file = "1343,Rakib,India,24-12-2010"
+print(csv_file.split(","))
+```
+
