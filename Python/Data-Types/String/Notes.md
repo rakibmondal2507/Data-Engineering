@@ -131,3 +131,13 @@ print("   Engineering   ".strip())
 text = "###Rakib###".strip("#")
 print(text)
 ```
+===================================
+        Case conversion
+===================================
+```python
+text = "Python PROGRAMMING"
+print(text.lower())
+print(text.upper())
+```
+- **use case** - Lowercase all text to prevent case based mismatches during search and comparison.
+- Best Practice - Clean before search - Always trim spaces and lowercase your data and search term before matching.
