@@ -115,7 +115,19 @@ print(csv_file.split(","))
 - If you leave start index empty Python start from index 0
 - use negative indexs if you want to extract part from the right side (end) of the string)
 
-=========================
+
 ## String Cleaning
-=========================
+
 ### clean whitespaces
+```python
+text = "   Engineering".lstrip()
+print(text)
+
+text = "Engineering   ".rstrip()
+print(text)
+
+print("   Engineering   ".strip())
+
+text = "###Rakib###".strip("#")
+print(text)
+```
